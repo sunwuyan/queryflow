@@ -58,7 +58,7 @@
     self.totalFlowPerHour.text=@"";
     self.actualFlow.text=@"";
     [self activityIndicatorView];
-    NSString *baseUrl=@"http://10.68.191.206/y/testdriver/t.php";
+    NSString *baseUrl=@"http://10.68.177.229/y/testdriver/t.php";
     NSString *query=[NSString stringWithFormat:@"?ip=%@&from=%@&to=%@&isMobile=1",self.wifi.text,self.from.text,self.to.text];
     NSString *urlString=[baseUrl stringByAppendingString:query];
     NSURL *url=[NSURL URLWithString:urlString];
